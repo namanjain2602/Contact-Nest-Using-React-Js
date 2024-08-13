@@ -1,0 +1,74 @@
+/* Form Container Styling */
+.form-header {
+    background-color: #f7f9fc; /* Light background color */
+    padding: 30px; /* Padding around the form */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 400px; /* Set a max width for the form */
+    margin: 0 auto; /* Center the form */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+  }
+  
+  /* Add Contact Header */
+  .add-contact {
+    font-size: 24px; /* Large font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the text */
+    color: #4a90e2; /* Blue text color */
+    margin-bottom: 20px; /* Space below the header */
+  }
+  
+  /* Form Label Styling */
+  label {
+    font-size: 16px; /* Standard font size */
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Space below the label */
+    display: block; /* Ensure labels are on separate lines */
+  }
+  
+  /* Input Field Styling */
+  input[type="text"], input[type="email"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside the input fields */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    margin-bottom: 15px; /* Space below each input */
+    font-size: 16px; /* Font size inside inputs */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
+  /* Add Contact Button */
+  .btn {
+    background-color: #4a90e2; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    display: block; /* Make the button a block element */
+    width: 100%; /* Full width button */
+    text-align: center; /* Center the button text */
+  }
+  
+  /* Button Hover Effect */
+  .btn:hover {
+    background-color: #357ab7; /* Darker blue on hover */
+  }
+  
+  /* Optional: Add some responsiveness */
+  @media (max-width: 480px) {
+    .form-header {
+      padding: 20px; /* Reduce padding on small screens */
+    }
+    
+    .add-contact {
+      font-size: 20px; /* Reduce header size on small screens */
+    }
+    
+    .btn {
+      padding: 10px; /* Adjust button padding on small screens */
+    }
+  }
+  

@@ -1,0 +1,82 @@
+/* ContactList.css */
+.contact-list-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .contact-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #b9c6d9 0%, #c3cfe2 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    flex: 1;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #1f0b0b;
+    flex: 2;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  span {
+    cursor: pointer;
+    color: #e74c3c;
+    transition: color 0.3s ease;
+  }
+  
+  span:hover {
+    color: #c0392b;
+  }
+  
+  @media (max-width: 600px) {
+    .contact-list-container {
+      padding: 0 20px;
+    }
+  
+    .contact {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .name,
+    .email {
+      text-align: left;
+      margin: 0;
+    }
+  
+    .email {
+      margin-top: 5px;
+    }
+  }
+  
